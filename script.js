@@ -290,7 +290,7 @@ function getExchangeRate() {
     amountVal = 1;
   }
   exchangeRateTxt.innerText = "Getting exchange rate...";
-  let url = `https://v6.exchangerate-api.com/v6/b1c4b38ea7c13da34873fd17/latest/${fromCurrency.value}`;
+  let url = `https://v6.exchangerate-api.com/v6/cecc41fb85e616a5911b7358/latest/${fromCurrency.value}`;
   fetch(url)
     .then((response) => response.json())
     .then((result) => {
